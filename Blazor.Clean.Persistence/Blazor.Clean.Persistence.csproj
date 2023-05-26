@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HR.LeaveManagement.Application\Blazor.Clean.Application.csproj" />
+    <ProjectReference Include="..\Blazor.Clean.Application\Blazor.Clean.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

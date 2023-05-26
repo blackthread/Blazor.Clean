@@ -22,10 +22,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\HR.LeaveManagement.Application\Blazor.Clean.Application.csproj" />
-		<ProjectReference Include="..\HR.LeaveManagement.Identity\Blazor.Clean.Identity.csproj" />
-		<ProjectReference Include="..\HR.LeaveManagement.Infrastructure\Blazor.Clean.Infrastructure.csproj" />
-		<ProjectReference Include="..\HR.LeaveManagement.Persistence\Blazor.Clean.Persistence.csproj" />
+		<ProjectReference Include="..\Blazor.Clean.Application\Blazor.Clean.Application.csproj" />
+		<ProjectReference Include="..\Blazor.Clean.Identity\Blazor.Clean.Identity.csproj" />
+		<ProjectReference Include="..\Blazor.Clean.Infrastructure\Blazor.Clean.Infrastructure.csproj" />
+		<ProjectReference Include="..\Blazor.Clean.Persistence\Blazor.Clean.Persistence.csproj" />
 	</ItemGroup>
 
 </Project>
