@@ -1,0 +1,49 @@
+﻿@page "/todoitems/"
+
+<h3>Leave Types</h3>
+
+
+
+
+<div clas></div>
+@if (ToDoItems == null)
+{
+    <p>Loading Data...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Default Days
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var toDoItem in ToDoItems)
+            {
+                <tr>
+                    <td>@toDoItem.Id </td>
+                    <td>@toDoItem.Description </td>
+                    <td>@toDoItem.IsCompleted </td>
+@*                    <td>
+                        <AuthorizeView Roles="Administrator">
+                            <button @onclick="@(() => EditLeaveType(leaveType.Id))" class="btn btn-warning">Edit</button>
+                            <button @onclick="@(() => DeleteLeaveType(leaveType.Id))" class="btn btn-danger">Delete</button>
+                        </AuthorizeView>
+                        <button @onclick="@(() => DetailsLeaveType(leaveType.Id))" class="btn btn-info">Details</button>
+                    </td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}

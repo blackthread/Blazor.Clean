@@ -1,0 +1,1 @@
+add-migration init -context HrDatabaseContext
